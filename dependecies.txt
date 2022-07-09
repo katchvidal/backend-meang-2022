@@ -1,0 +1,5 @@
+dependencias
+apollo-server-express bcrypt chalk@4.1.2 compression cors dotenv express express-graphql googleapis graphql graphql-import-node graphql-merge-resolvers graphql-playground-middleware-express graphql-tools jsonwebtoken mongodb ncp nodemailer slugify typescript
+
+desarrollo
+@graphql-tools/load-files @graphql-tools/merge @graphql-tools/schema @graphql-tools/utils @types/bcrypt @types/compression @types/cors @types/express @types/graphql @types/graphql-upload @types/jsonwebtoken @types/mongodb @types/node @types/nodemailer nodemon ts-node typescript-tslint-plugin
