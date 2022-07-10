@@ -1,6 +1,6 @@
 {
   "name": "backend-graphql-2022",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "servidor para aplicaciones lo mas robuesto posible hecho con graphql, typescript, node, express y apollo server",
   "main": "build/server.js",
   "author": "Ing katch vidal",
