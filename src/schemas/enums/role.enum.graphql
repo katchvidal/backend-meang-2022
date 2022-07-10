@@ -1,0 +1,6 @@
+#   Fichero Enum para Rol de Usuario en Graphql
+
+enum Role {
+    CLIENT
+    ADMIN
+}

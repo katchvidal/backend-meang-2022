@@ -1,0 +1,12 @@
+#   Respuesta del servidor ante una peticion de verificacion de Authenticacion
+
+type ResultAuth implements Result {
+
+  # Status de la Operacion
+  status: Boolean!
+  # Feedback de la operacion
+  message: String!
+  # User
+  user: User
+  
+}

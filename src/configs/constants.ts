@@ -5,6 +5,12 @@ if (process.env.NODE_ENV !== "production") {
   const env = enviroment;
 }
 
+//  PORT
+export const PORT : number | String = process.env.PORT || 8000 
+
+//  MongoDB Connection String
+export const MONGOCLIENTURI : string = process.env.MONGOCDN || 'MONGODBSTRING'
+
 //  TODO: JSONWEBTOKEN SECRET KEY
 export const SECRET_KEY = process.env.SECRET_KEY || "SECRET_KEY_DEVELOPMENT";
 

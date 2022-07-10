@@ -1,0 +1,10 @@
+#   Inerfaz de resultado para cualquier respuesta
+
+interface Result {
+
+    #   Status request
+    status: Boolean!
+    #   Feedback request
+    message: String!
+
+}

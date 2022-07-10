@@ -1,7 +1,7 @@
 {
   "name": "backend-graphql-2022",
   "version": "0.1.0",
-  "description": "servidor para aplicaciones web lo mas robuesto posible hecho con graphql, typescript, node, express y apollo server",
+  "description": "servidor para aplicaciones lo mas robuesto posible hecho con graphql, typescript, node, express y apollo server",
   "main": "build/server.js",
   "author": "Ing katch vidal",
   "scripts": {
@@ -27,7 +27,7 @@
     "graphql-playground-middleware-express": "^1.7.23",
     "graphql-tools": "^8.2.11",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^4.6.0",
+    "mongodb": "^4.7.0",
     "ncp": "^2.0.0",
     "nodemailer": "^6.7.5",
     "slugify": "^1.6.5",

@@ -1,0 +1,11 @@
+#   Respuesta del servidor ante una peticion de un Registro de Usuario
+
+
+type ResultSignUpUser implements Result {
+
+    #   Status request
+    status: Boolean!
+    #   Feedback of an operation
+    message: String!
+  
+}

@@ -1,0 +1,6 @@
+type Mutation {
+
+  # Mutation Register a User
+    signup( user: UserInput! ): ResultSignUpUser
+
+}

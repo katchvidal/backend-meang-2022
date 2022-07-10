@@ -1,0 +1,11 @@
+#   Query Usuarios desde obtener un solo usuario, obtener un Arreglo de Usuarios
+#   Pagination query always recived a page: Int & itemsPage: Int
+
+type Query {
+    user ( _id: ID! ): ResultUser
+    users: ResultUsers
+    # user( email: String! ): ResultUser
+    # users( page: Int = 1, itemsPage: Int = 20, active: ActiveEnumFilter = ACTIVE ): ResultUsers
+    # usersActive( page: Int = 1, itemsPage: Int = 20 ): ResultUsers
+    
+}

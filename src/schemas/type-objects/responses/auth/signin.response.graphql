@@ -1,0 +1,14 @@
+#   Respuesta del Servidor ante una consulta de Login de Usuario
+
+type ResultLogin implements Result {
+
+  # Status de la Operacion
+  status: Boolean!
+  # Feedback de la operacion
+  message: String!
+  # JSON WEB TOKEN
+  token: String
+  # User
+  user: User
+  
+}

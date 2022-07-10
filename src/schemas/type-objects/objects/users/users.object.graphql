@@ -1,0 +1,15 @@
+#   Objecto de Usuario -> Aqui se define un objeto de tipo usuario ( identico a como se guardara en base de datos )
+
+type User {
+
+    _id:        ID
+    name:       String
+    lastname:   String
+    email:      String
+    password:   String
+    birthDay:   String
+    createAT:   String
+    role:       Role!
+    active:     Boolean
+
+}

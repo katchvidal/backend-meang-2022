@@ -1,14 +1,5 @@
 import dotenv from 'dotenv';
 
-
-/**
- * THE COMMENTS HAVE THIS TYPE OF TEXT & COLORS
- * ?
- * *
- * !
- * TODO
- */
-
 // * ENVIROMENT DEV THE CONFIG COMMING FROM A ENV
 const enviroment = dotenv.config({
     path:'./src/.env'

@@ -1,0 +1,12 @@
+#   Respuesta del servidor ante una peticion de un Usuario
+
+type ResultUser implements Result {
+
+  # Status de la operacion
+  status: Boolean!
+  # Message
+  message: String!
+  # Users
+  user: User
+
+}

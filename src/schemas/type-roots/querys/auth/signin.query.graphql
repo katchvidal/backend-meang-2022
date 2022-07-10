@@ -1,0 +1,8 @@
+#   Query de Login de Usuario y Validacion de Authenticacion
+
+type Query {
+
+    signin( email: String!, password: String! ): ResultLogin
+    auth: ResultAuth
+
+}

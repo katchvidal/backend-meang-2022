@@ -1,0 +1,13 @@
+#   Respuesta del servidor ante una peticion de Usuarios
+
+type ResultUsers implements Result {
+  # Paginacion
+#   info: ResultInfo
+  # Status de la operacion
+  status: Boolean!
+  # Message
+  message: String!
+  # Users
+  users: [User!]
+
+}
